@@ -27,7 +27,7 @@ To run Emily Tarot locally, follow these steps:
 
 1. Clone this repository.
 2. Install the dependencies: `pip install -r requirements.txt`
-3. Set up environment variables `SESSION_DIR` and `OPENAI_SECRET_KEY`.
+3. Set up environment variables `SESSION_DIR`(Path to usr_data) and `OPENAI_SECRET_KEY` (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).
 4. Use `cd src && streamlit run streamlit_app.py` to start the Streamlit application.
 5. Navigate to `http://localhost:8501` in your web browser to interact with Emily Tarot.
 
