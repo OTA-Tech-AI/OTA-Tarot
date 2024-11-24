@@ -448,12 +448,12 @@ def main():
         html_content = """
         <div style="display: flex; justify-content: center; align-items: center; ">
             <script async
-            src="https://js.stripe.com/v3/buy-button.js">
+              src="https://js.stripe.com/v3/buy-button.js">
             </script>
-
+            
             <stripe-buy-button
-            buy-button-id="buy_btn_1PphjX09wo9qGPKo9rZPY3hI"
-            publishable-key="pk_live_51Pph9j09wo9qGPKoXCJgQdQ7hU8JYkMdnfaDIkJdNlen7wV1RIZXUKVjfOlNxhXWzSgxrWesz9jARbNzhWSYx1sd00GFofECQX"
+              buy-button-id="buy_btn_1QOlMdJ5GsmSqwvSxxYvJPiU"
+              publishable-key="pk_live_51QE1NKJ5GsmSqwvSFyL8oppruSnOOuYSwtQChGgn3vJRnKDNaGxiNxCcFwiUXII06oNkVIUi46jMKgADc18n3PRL00yDm2mTKm"
             >
             </stripe-buy-button>
         </div>
