@@ -7,9 +7,9 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import List
 from uuid import uuid4
-import openai
+from openai import OpenAI
 
-client = openai.OpenAI()
+client = OpenAI()
 import streamlit as st
 
 from utils.helpers import date_id
